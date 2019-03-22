@@ -3,7 +3,6 @@ package model.dao;
 import connection.MyConnection;
 import model.bean.Cliente;
 
-import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -73,6 +72,21 @@ public class ClienteDAO {
 
         return FALSE;
     }
+    public boolean deletarTodosClientes(){
+        connection = MyConnection.getConexaoMysql();
+        query = "DELETE FROM " + tabela;
+
+        try {
+            PreparedStatement stmt = connection.prepareStatement(query);
+
+            stmt.executeUpdate();
+            return TRUE;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return FALSE;
+    }
     public ArrayList<Cliente> selecionaTodosRegistros(){
         ArrayList<Cliente> clientes = new ArrayList<>();
         connection = MyConnection.getConexaoMysql();
@@ -113,5 +127,20 @@ public class ClienteDAO {
         }
 
         return cliente;
+    }
+    public boolean zerarAutoIncremento(){
+        this.deletarTodosClientes();
+        connection = MyConnection.getConexaoMysql();
+        query = "ALTER TABLE " + tabela + " AUTO_INCREMENT = 1";
+
+        try {
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.executeUpdate();
+
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 }

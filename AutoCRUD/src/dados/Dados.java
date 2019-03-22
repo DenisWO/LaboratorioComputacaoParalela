@@ -9,6 +9,7 @@ public class Dados {
     private ArrayList<String> senhas;
     private ArrayList<String> telefones;
     private Random random;
+    private int indexNome;
 
     public Dados(){
         this.nomes = new ArrayList<>();
@@ -16,13 +17,15 @@ public class Dados {
         this.senhas = new ArrayList<>();
         this.telefones = new ArrayList<>();
         this.random = new Random();
+        indexNome = 0;
         this.setNomes();
         this.setEmails();
         this.setSenhas();
         this.setTelefones();
     }
     public String getNomes() {
-        return nomes.get(random.nextInt(10));
+        this.indexNome = random.nextInt(10);
+        return nomes.get(this.indexNome);
     }
 
     public void setNomes() {
@@ -39,7 +42,7 @@ public class Dados {
     }
 
     public String getEmails() {
-        return emails.get(random.nextInt(10));
+        return emails.get(this.indexNome);
     }
 
     public void setEmails() {
