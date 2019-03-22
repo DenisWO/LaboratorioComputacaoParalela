@@ -5,7 +5,7 @@ import audi.view.TelaProducao;
 import java.awt.*;
 
 public class LPBancos {
-    private static final int TEMPO_PRODUCAO = 1000;
+    private static final int TEMPO_PRODUCAO = 6000;
     private static final int PRODUZINDO = 1;
     private static final int AGUARDANDO = 2;
     public static final int IMPOSSIVEL_PRODUZIR = 3;
