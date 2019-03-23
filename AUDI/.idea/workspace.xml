@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cdabb7e-e9a3-4b3b-8626-261e91718ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audi/linha_producao/LPBancos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audi/linha_producao/LPBancos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audi/linha_producao/LPCarroceria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audi/linha_producao/LPCarroceria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audi/linha_producao/LPEletronica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audi/linha_producao/LPEletronica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audi/linha_producao/LPMotores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audi/linha_producao/LPMotores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audi/linha_producao/LPPneus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audi/linha_producao/LPPneus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/connection/MyConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/connection/MyConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/dados/Dados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/dados/Dados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/bean/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/bean/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/model/dao/ClienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaCadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaInicial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaInicial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaRegistros$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaRegistros$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaRegistros.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCRUD/out/production/AutoCRUD/view/TelaRegistros.class" afterDir="false" />
-    </list>
+    <list default="true" id="6cdabb7e-e9a3-4b3b-8626-261e91718ca1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPEletronica.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -67,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPPneus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -222,10 +202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPEletronica.java">
+    <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPPneus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -236,7 +216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPPneus.java">
+    <entry file="file://$PROJECT_DIR$/src/audi/linha_producao/LPEletronica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
